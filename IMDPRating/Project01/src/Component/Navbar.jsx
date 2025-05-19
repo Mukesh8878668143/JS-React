@@ -9,12 +9,12 @@ const Navbar = () => {
     return (
         <>
             <div className='flex space-x-8 item center pl-3 py-4'>
-                <Link to={'/'}>
-                    <img src={"logo"} alt="Imdp icon" />
-                </Link>
-                <Link to={'/'} >Movies</Link>
-                <Link to={'/watchlist'} >WatchList</Link>
-                <Link to={'/Logout'}>Log-out</Link>
+            <Link to={'/'}>
+                <img src={logo} alt="Imdp icon" />
+            </Link>
+            <Link to={'/'}>Movies</Link>
+            <Link to={'/watchlist'}>WatchList</Link>
+            <Link to={'/Logout'}>Log-out</Link>
             </div>
         </>
     );
